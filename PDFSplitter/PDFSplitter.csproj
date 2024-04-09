@@ -6,10 +6,15 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>img\8687092_ic_fluent_document_landscape_split_icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="pdf-download-2617.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="img\8687092_ic_fluent_document_landscape_split_icon.ico" />
   </ItemGroup>
 
   <ItemGroup>
