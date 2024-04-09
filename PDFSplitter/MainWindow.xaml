@@ -1,0 +1,14 @@
+﻿<Window x:Class="PDFSplitter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PDFSplitter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Drop="Window_Drop" AllowDrop="True" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="DragndropLabel" Content="PDF-Datei hier hereinziehen um sie zu splitten" HorizontalAlignment="Center" VerticalAlignment="Center" Height="58" Width="472" FontSize="18" FontFamily="Arial Black" AllowDrop="True"/>
+        <Image x:Name="Icon" HorizontalAlignment="Center" Height="100" Margin="0,251,0,0" VerticalAlignment="Top" Width="100" Source="/pdf-download-2617.png"/>
+        <Rectangle x:Name="DragndropBox" HorizontalAlignment="Center" Height="362" Stroke="Black" VerticalAlignment="Center" Width="710"/>
+    </Grid>
+</Window>
