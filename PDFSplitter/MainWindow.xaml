@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800" Drop="Window_Drop" AllowDrop="True" ResizeMode="NoResize">
     <Grid>
         <Label x:Name="DragndropLabel" Content="PDF-Datei hier hereinziehen um sie zu splitten" HorizontalAlignment="Center" VerticalAlignment="Center" Height="58" Width="472" FontSize="18" FontFamily="Arial Black" AllowDrop="True"/>
-        <Image x:Name="Icon" HorizontalAlignment="Center" Height="100" Margin="0,251,0,0" VerticalAlignment="Top" Width="100" Source="/pdf-download-2617.png"/>
+        <Image x:Name="Icon" HorizontalAlignment="Center" Height="100" Margin="0,251,0,0" VerticalAlignment="Top" Width="100" Source="/img/pdfIcon.png"/>
         <Rectangle x:Name="DragndropBox" HorizontalAlignment="Center" Height="362" Stroke="Black" VerticalAlignment="Center" Width="710"/>
     </Grid>
 </Window>

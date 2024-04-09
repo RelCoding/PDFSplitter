@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="pdf-download-2617.png" />
+    <Resource Include="img\pdfIcon.png" />
   </ItemGroup>
 
 </Project>
